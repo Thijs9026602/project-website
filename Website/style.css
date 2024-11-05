@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    display: flex;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+}
+.logo{
+    height:100px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul a{
+    border-radius: 10%;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
+    text-decoration: none;
+    font-size: 24px;
+    color:black
+}
+ul li{
+    padding: 30px;
+}
+ul a:hover{
+background-color: rgb(223, 223, 223);
+}
+/*HOMEPAGE STYLE*/
+.index-body{
+background-color: rgb(186, 191, 21);
+}
+.index-h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.index-imgs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 500px;
+}
+.nav-ul{
+    list-style: none;
+}
+/*LOCATIEGIDS STYLE*/
+.locatiegids-body{
+    background-color: rgb(0, 99, 65);
+}
+.facil-div{
+padding-left: 30px;
+color: white;
+}
+.facil-h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.regels-div{
+    color: white;
+    padding-left: 30px;
+}
+.regels-h1{
+display: flex;
+justify-content: center;
+}
+/*VOORSTELPAGINA STYLE*/
+.voorstel-div1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.vraag{
+    font-size: 30px;
+    font-weight: bold;
+}
+.antwoord{
+    font-size: 30px;
+    font-style: italic;
+}
+.voorstel-img1{
+    height: 450px;
+}
+.voorstel-div2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.voorstel-img2{
+    height: 200px;
+}
+.voorstel-div3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.voorstel-img3{
+height: 400px;
+}
+/*BSA STYLE*/
+.bsa-body{
+    background-color: rgb(0, 99, 65);
+}
+.bsa-h1{
+display: flex;
+justify-content: center;
+padding-top: 40px;
+color: white;
+}
+.bsa-p1{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.bsa-ul1{
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+.bsa-h2{
+    color: white;
+    padding-left: 40px;
+}
+
+/*EDUARTE STYLE*/
+.eduarte-body{
+    background-color: rgb(0, 99, 65);
+}
+.eduarte-p1{
+
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.eduarte-div1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.eduarte-p2{
+    color: white;
+    font-size: 24px;
+    padding-left: 40px;
+}
+.eduarte-link{
+    padding-left: 40px;
+    font-size: 24px;
+    color: white;
+}
+.eduarte-div2{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+color: white;
+padding-left: 40px;
+padding-right: 40px;
+font-size: 24px;
+}
+.eduarte-div3{
+display: flex;
+justify-content: center;
+color: white;
+justify-content: space-between;
+flex-direction: column;
+font-size: 24px;
+align-items: end;
+padding-right: 40px;
+}
+.eduarte-p3{
+    padding-left: 850px;
+}
+.eduarte-div4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-size: 24px;
+}
+.eduarte-p4{
+    padding-left: 40px;
+}
+.eduarte-p5{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 24px;
+padding-left: 40px;
+}
